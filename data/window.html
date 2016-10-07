@@ -1,0 +1,13 @@
+<html hidechrome="true" style="background: blue">
+
+<h1 style="-moz-window-dragging: drag">Hello</h1>
+<p>Text
+<h1 style="-moz-window-dragging: drag">World</h1>
+
+<script>
+
+window.communicate = (text) => {
+  document.body.innerHTML += `<p>${text}</p>`
+}
+
+</script>
